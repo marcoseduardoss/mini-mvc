@@ -1,0 +1,17 @@
+version: '3.3'
+
+services:
+  database:
+    image: postgres
+    restart: always
+    container_name: livraria
+    ports:
+      - 5432:5432
+    environment:      
+      POSTGRES_DB: livraria
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    
+#restart: unless-stopped
+#restart: always    
+         

@@ -7,9 +7,6 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 
 import br.me.mvc.controle.acoes.Action;
-
-
-
 /**
  * 
  * @author marcos.eduardo
@@ -39,19 +36,11 @@ public enum JavaReflectionUtil {
                 			
                 			if(absolutePath.endsWith("class") && !absolutePath.contains("$")) {
                 				
-                				String linuxPath = absolutePath.replaceAll("\\\\", "\\.");
-                						
-                			    String winPath = linuxPath.replaceAll("/", "\\.");
-                				
-	                			String completePath = winPath.split("classes")[1].substring(1);
-	                			
-	                			String packagePath = completePath.replace(".class", "");
-	                			
-	                			String[] packageArray = packagePath.split("\\.");
-								
-	                			String fileName = packageArray[packageArray.length-1];
-								
-	                			map.put(fileName, packagePath);
+	                			String sufixpath = absolutePath.split("classes")[1].substring(1).replaceAll("\\\\", "\\.");
+	                			sufixpath = sufixpath.replace(".class", "");
+	                			String[] split = sufixpath.split("\\.");
+								String fileName = split[split.length-1];
+								map.put(fileName, sufixpath);
 								
                 			}
 							

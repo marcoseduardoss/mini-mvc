@@ -57,7 +57,7 @@ public class ServletControlador extends HttpServlet {
             } catch (Exception e) {
                 //imprime no console o erro ocorrido
                 String msg = "Erro na classe ServletContrador. ";
-                msg += "Detalhes do erro: "+e.getMessage();        
+                msg += "Detalhes do erro em inglês: "+e.getMessage();        
                 System.out.println(msg);            
                 throw new ControllerMvcException(msg, e);
             } 
