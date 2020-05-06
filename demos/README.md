@@ -1,6 +1,6 @@
-#Demos:
+# Demos:
 
-####Examples of MiniMVC implementation:
+#### Examples of MiniMVC implementation:
 
 - [001-crud-books-jstl-jdbc](https://github.com/marcoseduardoss/mini-mvc/tree/master/demos/001-crud-books-jstl-jdbc): Example of the Project JDBC, PostgreSQL and JSP/JSTL. It contains the original MiniMVC code in the project packages[](): 
 
