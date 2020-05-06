@@ -6,4 +6,4 @@
 
 - [002-crud-books-jstl-jdbc](https://github.com/marcoseduardoss/mini-mvc/tree/master/demos/002-crud-books-jstl-jdbc): Example of the Project JDBC, PostgreSQL and JSP/JSTL. The MiniMVC included as a dependency in jar format compiled. 
 
-- [003-crud-books-jstl-jdbc](https://github.com/marcoseduardoss/mini-mvc/tree/master/demos/003-crud-books-jstl-jdbc): Exemple of the Project JPA/HIBERNATE, PostgreSQL and JSP/JSTL. The MiniMVC included as a dependency in jar format compiled. 
+- [003-crud-books-jstl-hibernate](https://github.com/marcoseduardoss/mini-mvc/tree/master/demos/003-crud-books-jstl-hibernate): Exemple of the Project JPA/HIBERNATE, PostgreSQL and JSP/JSTL. The MiniMVC included as a dependency in jar format compiled. 
