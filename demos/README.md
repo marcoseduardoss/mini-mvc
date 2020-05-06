@@ -1,6 +1,4 @@
-
-
-##Demos:
+#Demos:
 
 ####Examples of MiniMVC implementation:
 
