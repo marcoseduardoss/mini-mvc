@@ -1,4 +1,4 @@
-package br.me.agenda.model.repository.config;
+package br.me.livraria.model.repository.config;
 
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;

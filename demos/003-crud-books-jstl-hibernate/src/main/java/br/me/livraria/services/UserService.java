@@ -1,8 +1,8 @@
-package br.me.agenda.services;
+package br.me.livraria.services;
 
-import br.me.agenda.exception.LibraryException;
-import br.me.agenda.model.repository.UsuarioDAO;
-import br.me.agenda.modelo.dominio.Usuario;
+import br.me.livraria.exception.LibraryException;
+import br.me.livraria.model.repository.UsuarioDAO;
+import br.me.livraria.modelo.dominio.Usuario;
 
 public class UserService {
 	

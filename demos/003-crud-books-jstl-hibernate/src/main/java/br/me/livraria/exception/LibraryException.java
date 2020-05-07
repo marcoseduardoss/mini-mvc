@@ -1,4 +1,4 @@
-package br.me.agenda.exception;
+package br.me.livraria.exception;
 
 @SuppressWarnings("serial")
 public class LibraryException extends RuntimeException {

@@ -1,4 +1,4 @@
-package br.me.agenda.model.repository;
+package br.me.livraria.model.repository;
 
 import java.util.List;
 
@@ -6,10 +6,10 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.TypedQuery;
 
-import br.me.agenda.exception.LibraryException;
-import br.me.agenda.model.repository.config.DaoI;
-import br.me.agenda.model.repository.config.HibernateUtil;
-import br.me.agenda.modelo.dominio.Usuario;
+import br.me.livraria.exception.LibraryException;
+import br.me.livraria.model.repository.config.DaoI;
+import br.me.livraria.model.repository.config.HibernateUtil;
+import br.me.livraria.modelo.dominio.Usuario;
 
 public class UsuarioDAO implements DaoI<Usuario> {
 

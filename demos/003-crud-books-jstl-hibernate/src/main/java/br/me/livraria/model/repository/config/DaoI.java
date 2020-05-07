@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.me.agenda.model.repository.config;
+package br.me.livraria.model.repository.config;
 
 import java.util.List;
 

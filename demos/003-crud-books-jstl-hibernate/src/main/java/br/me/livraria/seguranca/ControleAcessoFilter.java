@@ -1,4 +1,4 @@
-package br.me.agenda.seguranca;
+package br.me.livraria.seguranca;
 
 import java.io.IOException;
 

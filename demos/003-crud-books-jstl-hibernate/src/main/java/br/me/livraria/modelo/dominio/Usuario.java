@@ -1,4 +1,4 @@
-package br.me.agenda.modelo.dominio;
+package br.me.livraria.modelo.dominio;
 
 import javax.persistence.*;
 

@@ -1,11 +1,11 @@
-package br.me.agenda.controle.acoes;
+package br.me.livraria.controle.acoes;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import br.me.agenda.modelo.dominio.Usuario;
-import br.me.agenda.services.UserService;
+import br.me.livraria.modelo.dominio.Usuario;
+import br.me.livraria.services.UserService;
 import br.me.mvc.controle.acoes.Action;
 
 /**
