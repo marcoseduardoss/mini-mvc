@@ -35,4 +35,7 @@ mvn install
 - Opção 2: Pode ser gerado o war Intalar o Tomcat no Eclilse Executar o projeto em Tomcat via Eclipse. Obs.: Clicar com o botão direito sobre o projeto --> "Run as" --> "Run on Eclipse" -> Tomcat 9 --> etc 
 
 Obs.: Caso seja possível, providenciarei a execução completa no Docker, com SGBD e Docker. 
+
+##### URL
+- [http://localhost:8085/crud-books-jstl-jdbc](http://localhost:8085/crud-books-jstl-jdbc)
  
