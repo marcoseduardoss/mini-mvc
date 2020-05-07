@@ -58,7 +58,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>crud-books-jstl-jdbc</finalName>
+		<finalName>crud-books-jstl-hibernate</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
