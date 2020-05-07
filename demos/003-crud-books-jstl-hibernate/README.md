@@ -1,6 +1,8 @@
 ## Especialização em Engenharia de Software com DevOps (UECE).
 
-Projeto foi criado como requisito para disciplina de Desenvolvimento Web com Frameworks.
+Projeto criado como requisito para disciplina de Desenvolvimento Web com Frameworks.
+
+###### Peojeto 1 
 
 #### Autor
 Marcos Eduardo da Silva Santos
