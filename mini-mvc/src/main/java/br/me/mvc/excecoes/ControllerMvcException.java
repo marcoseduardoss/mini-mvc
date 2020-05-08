@@ -8,8 +8,9 @@ import javax.servlet.ServletException;
 
 /**
  *
- * @author Di-notbook4
+ * @author marcos.eduardo
  */
+@SuppressWarnings("serial")
 public class ControllerMvcException extends ServletException {
 
     public ControllerMvcException(String message) {

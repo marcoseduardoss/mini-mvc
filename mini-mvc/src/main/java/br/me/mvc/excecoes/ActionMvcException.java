@@ -8,7 +8,7 @@ import javax.servlet.ServletException;
 
 /**
  *
- * @author Di-notbook4
+ * @author marcos.eduardo
  */
 public class ActionMvcException extends ServletException {
 

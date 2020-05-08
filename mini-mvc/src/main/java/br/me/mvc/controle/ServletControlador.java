@@ -3,7 +3,6 @@ package br.me.mvc.controle;
 import java.io.IOException;
 
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebInitParam;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -11,9 +10,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import br.me.mvc.controle.acoes.Action;
 import br.me.mvc.excecoes.ControllerMvcException;
-import br.me.mvc.util.JavaReflectionUtil;
 
-@WebServlet(name = "ServletControlador", urlPatterns = { "/controllerServletPublico", "/restrito/controllerServlet" })
+@WebServlet(name = "ServletControlador", urlPatterns = { "/public/controllerServlet", "/restrict/controllerServlet" })
 @SuppressWarnings("serial")
 public class ServletControlador extends HttpServlet {
 
@@ -28,12 +26,12 @@ public class ServletControlador extends HttpServlet {
 
 			String realPath = req.getServletContext().getRealPath("/WEB-INF/classes");
 
-			Action comando = Action.newInstance(className, realPath);
+			Action command = Action.newInstance(className, realPath);
 
 			// execute business logic
-			String paginaRedirecionada = comando.executa(req, res);
+			String redirectedPage = command.executa(req, res);
 
-			String url = "./" + paginaRedirecionada;
+			String url = "/" + redirectedPage;
 
 			// update encoding of the response to utf-8
 			res.setCharacterEncoding("UTF-8");
@@ -41,7 +39,7 @@ public class ServletControlador extends HttpServlet {
 			res.setContentType("text/html;charset=UTF-8");
 
 			// redireciona
-			if (comando.isRedirect())
+			if (command.isRedirect())
 				res.sendRedirect(res.encodeRedirectURL(url));
 			else
 				req.getRequestDispatcher(url).forward(req, res);

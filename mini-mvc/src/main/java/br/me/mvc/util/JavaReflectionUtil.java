@@ -1,12 +1,7 @@
 package br.me.mvc.util;
 import java.io.File;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
-
-import javax.servlet.http.HttpServletRequest;
-
-import br.me.mvc.controle.acoes.Action;
 
 
 
