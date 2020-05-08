@@ -2,7 +2,9 @@
 
 Projeto criado como requisito para disciplina de Desenvolvimento Web com Frameworks.
 
-###### Peojeto 1 
+###### Peojetos 
+- **Projeto MiniMVC:** [https://github.com/marcoseduardoss/mini-mvc/tree/master/mini-mvc](https://github.com/marcoseduardoss/mini-mvc/tree/master/mini-mvc)
+- **Projeto Demo:** [001-crud-books-mvc-servlets-jstl-jpa](https://github.com/marcoseduardoss/mini-mvc/tree/master/demos/001-crud-books-mvc-servlets-jstl-jpa)
 
 #### Autor
 Marcos Eduardo da Silva Santos
@@ -37,5 +39,5 @@ mvn install
 Obs.: Caso seja possível, providenciarei a execução completa no Docker, com SGBD e Docker. 
 
 ##### URL
-- [http://localhost:8085/crud-books-jstl-jdbc](http://localhost:8085/crud-books-jstl-jdbc)
+- [http://localhost:8085/crudbooks](http://localhost:8085/crudbooks)
  
