@@ -38,4 +38,12 @@ Obs.: Caso seja possível, providenciarei a execução completa no Docker, com S
 
 ##### URL
 - [http://localhost:8085/crud-books-jstl-jdbc](http://localhost:8085/crud-books-jstl-jdbc)
+
+##### Exemplo de uso
+
+![](execucao--projeto-eclipse.gif)
+
+
+
+
  
