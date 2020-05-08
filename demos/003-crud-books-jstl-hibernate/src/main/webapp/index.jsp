@@ -19,14 +19,14 @@
         <center>
             <DIV style="COLOR: BLUE" align="CENTER">
                 <HR /><br />
-                Cadastro de Livros<br /><br />
+                CrudBooks<br /><br />
                 <HR />
             </DIV>
             <br />
             <br /> <br />Entrar no Sistema<br />
             <br />
 
-            <form action="<%=request.getContextPath()%>/controllerServletPublico?controle=LoginAction&operacao=entrar" method="post"
+            <form action="<%=request.getContextPath()%>/public/controllerServlet?controle=LoginAction&operacao=entrar" method="post"
                   accept-charset="utf-8">                    
                 <table>
                     <tr>
@@ -41,9 +41,9 @@
                         <td>&nbsp;</td>
                         <td>
                         	<input type="submit" value="logar" />
-                        	<a href="<%=request.getContextPath()%>/controllerServletPublico?controle=UsuarioAction&operacao=prepararCadastrarse" 
+                        	<a href="<%=request.getContextPath()%>/public/controllerServlet?controle=UsuarioAction&operacao=prepararCadastrarse" 
 				               title="Cadastrar-se">
-				                Cadastrar-se
+				                Cadastre-se
 				            </a>
                         </td>
                     </tr>

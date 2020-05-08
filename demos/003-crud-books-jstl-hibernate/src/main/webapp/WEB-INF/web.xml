@@ -8,18 +8,18 @@
 
 	<error-page>
 		<exception-type>br.me.mvc.excecoes.ControllerMvcException</exception-type>
-		<location>/WEB-INF/erro.jsp</location>
+		<location>/WEB-INF/error.jsp</location>
 	</error-page>
 	
 	<error-page>
 	  <exception-type>java.lang.RuntimeException</exception-type>
-	  <location>/WEB-INF/erro.jsp</location>
+	  <location>/WEB-INF/error.jsp</location>
 	 </error-page>
 
 
 	<error-page>
 	  <exception-type>java.lang.Exception</exception-type>
-	  <location>/WEB-INF/erro.jsp</location>
+	  <location>/WEB-INF/error.jsp</location>
 	 </error-page>
 	 
 </web-app>

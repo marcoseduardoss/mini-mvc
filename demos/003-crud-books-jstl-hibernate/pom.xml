@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>br.me.books</groupId>
-	<artifactId>003-crud-books-jstl-hibernate</artifactId>
+	<artifactId>003-crud-books-mvc-servlets-jstl-jpa</artifactId>
 	<version>0.0.1</version>
 	<packaging>war</packaging>
 
@@ -46,19 +46,19 @@
 			<version>1.2</version>
 		</dependency>
 			
-		<!-- https://github.com/marcoseduardoss/mini-mvc/projects -->
+		<!--https://github.com/marcoseduardoss/mini-mvc/projects -->
 		<dependency>
-			<groupId>br.com.mhc</groupId>
-			<artifactId>mhc</artifactId>
-			<version>1.0.0</version>
+			<groupId>br.com.minimvc</groupId>
+			<artifactId>mini-mvc</artifactId>
+			<version>0.0.3</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/mini-mvc-1.0.1.jar</systemPath>
-		</dependency>		
+			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/mini-mvc-0.0.3.jar</systemPath>
+		</dependency>	
 
 	</dependencies>
 
 	<build>
-		<finalName>crud-books-jstl-hibernate</finalName>
+		<finalName>crudbooks</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
