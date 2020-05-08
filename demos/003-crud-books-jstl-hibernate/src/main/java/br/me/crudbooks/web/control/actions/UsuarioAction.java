@@ -36,7 +36,7 @@ public class UsuarioAction extends Action {
 
 			request.setAttribute("usuario", u);
 
-			return "restrict/usuario/cadastro_usuario.jsp";
+			return "restrict/user/edit.jsp";
 
 		} catch (Exception e) {
 			request.setAttribute("msgexception", e.getMessage());
@@ -48,7 +48,7 @@ public class UsuarioAction extends Action {
 
 		request.setAttribute("usuario", new Usuario());
 
-		return "restrict/usuario/cadastro_usuario.jsp";
+		return "restrict/user/edit.jsp";
 	}
 
 	public String cadastrar(HttpServletRequest request, HttpServletResponse response) {
@@ -68,7 +68,7 @@ public class UsuarioAction extends Action {
 
 			request.setAttribute("msgSucesso", "Usuario cadastrado com sucesso");
 
-			return "restrict/usuario/lista_usuario.jsp";
+			return "restrict/user/list.jsp";
 
 		} catch (Exception e) {
 			request.setAttribute("msgexception", e.getMessage());
@@ -76,7 +76,7 @@ public class UsuarioAction extends Action {
 		}
 	}
 
-	public String cadastrarse(HttpServletRequest request, HttpServletResponse response) {
+	public String register(HttpServletRequest request, HttpServletResponse response) {
 
 		try {
 			Usuario usuario = new Usuario();
@@ -101,11 +101,11 @@ public class UsuarioAction extends Action {
 		}
 	}
 
-	public String prepararCadastrarse(HttpServletRequest request, HttpServletResponse response) {
+	public String prepareRegister(HttpServletRequest request, HttpServletResponse response) {
 
 		request.setAttribute("usuario", new Usuario());
 
-		return "public/usuario/cadastro_usuario.jsp";
+		return "public/user/register.jsp";
 	}
 
 	public String alterar(HttpServletRequest request, HttpServletResponse response) {
@@ -135,7 +135,7 @@ public class UsuarioAction extends Action {
 			throw new LibrarySystemException(e);
 
 		}
-		return "restrict/usuario/lista_usuario.jsp";
+		return "restrict/user/list.jsp";
 	}
 
 	public String listar(HttpServletRequest request, HttpServletResponse response) {
@@ -151,7 +151,7 @@ public class UsuarioAction extends Action {
 
 		}
 
-		return "restrict/usuario/lista_usuario.jsp";
+		return "restrict/user/list.jsp";
 	}
 
 	public String listarSemLogar(HttpServletRequest request, HttpServletResponse response) {
@@ -186,6 +186,6 @@ public class UsuarioAction extends Action {
 			request.setAttribute("msgexception", e.getMessage());
 			throw new LibrarySystemException(e);
 		}
-		return "restrict/usuario/lista_usuario.jsp";
+		return "restrict/user/list.jsp";
 	}
 }

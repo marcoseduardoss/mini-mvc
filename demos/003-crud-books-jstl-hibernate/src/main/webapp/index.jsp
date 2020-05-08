@@ -41,7 +41,7 @@
                         <td>&nbsp;</td>
                         <td>
                         	<input type="submit" value="logar" />
-                        	<a href="<%=request.getContextPath()%>/public/controllerServlet?controle=UsuarioAction&operacao=prepararCadastrarse" 
+                        	<a href="<%=request.getContextPath()%>/public/controllerServlet?controle=UsuarioAction&operacao=prepareRegister" 
 				               title="Cadastrar-se">
 				                Cadastre-se
 				            </a>

@@ -41,7 +41,7 @@
             <hr />
             
             <!-- botão cadastrar -->
-            <input type="hidden" name="operacao" value="cadastrarse" title="lavar no banco de dados"/>			      
+            <input type="hidden" name="operacao" value="register" title="lavar no banco de dados"/>			      
             <input type="submit" value="Cadastrar" />
 
              <!-- botão limpar -->

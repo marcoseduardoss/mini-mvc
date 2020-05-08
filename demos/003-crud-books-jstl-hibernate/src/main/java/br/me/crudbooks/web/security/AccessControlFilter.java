@@ -53,7 +53,7 @@ public class AccessControlFilter implements Filter {
             if (session == null || session.getAttribute("usuario") == null){
                 
                 //redirecionamento para pagina de aviso de sessão expirada
-                String paginaDeAviso = "/public/aviso_sessao_expirada.jsp";
+                String paginaDeAviso = "/WEB-INF/session.jsp";
                 rd = request.getRequestDispatcher(paginaDeAviso);  
                 rd.forward(request, response); 
                 
