@@ -11,7 +11,7 @@ Marcos Eduardo da Silva Santos
 
 Este Projeto foi implementado utilizando o padrão Model-View-Controller (MVC). 
 
-Foi codificado, também, um pequeno Framework MVC, o MiniMVC ([link](https://github.com/marcoseduardoss/mini-mvc)), o qual foi criado/utilziado como uma PoC par  Padrão MVC desenvolvido em Java/Servlet.  
+Foi codificado, também, um pequeno Framework MVC, o MiniMVC ([link](https://github.com/marcoseduardoss/mini-mvc/mini-mvc)), o qual foi criado/utilziado como uma PoC par  Padrão MVC desenvolvido em Java/Servlet.  
 
 #### Recursos utilizados
 - Java, Tomcat9, Servlet, JSTL, Docker, PostgreSQL 12 e Hibernate/JPA.
