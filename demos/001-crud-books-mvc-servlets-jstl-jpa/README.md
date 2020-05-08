@@ -14,7 +14,7 @@ Este Projeto foi implementado utilizando o padrão Model-View-Controller (MVC).
 Foi codificado, também, um pequeno Framework MVC, o MiniMVC ([link](https://github.com/marcoseduardoss/mini-mvc)), o qual foi criado/utilziado como uma PoC par  Padrão MVC desenvolvido em Java/Servlet.  
 
 #### URL de acesso a página principal
-- [http://localhost:8085/crudbooks](http://localhost:8085/crudbooks)
+- [http://localhost:8080/crudbooks](http://localhost:8080/crudbooks)
 
 #### Recursos utilizados
 - Java, Tomcat9, Servlet, JSTL, Docker, PostgreSQL 12 e Hibernate/JPA.
