@@ -13,6 +13,9 @@ Este Projeto foi implementado utilizando o padrão Model-View-Controller (MVC).
 
 Foi codificado, também, um pequeno Framework MVC, o MiniMVC ([link](https://github.com/marcoseduardoss/mini-mvc)), o qual foi criado/utilziado como uma PoC par  Padrão MVC desenvolvido em Java/Servlet.  
 
+#### URL de acesso a página principal
+- [http://localhost:8085/crudbooks](http://localhost:8085/crudbooks)
+
 #### Recursos utilizados
 - Java, Tomcat9, Servlet, JSTL, Docker, PostgreSQL 12 e Hibernate/JPA.
 
@@ -35,9 +38,6 @@ mvn install
 - Opção 2: Pode ser gerado o war Intalar o Tomcat no Eclilse Executar o projeto em Tomcat via Eclipse. Obs.: Clicar com o botão direito sobre o projeto --> "Run as" --> "Run on Eclipse" -> Tomcat 9 --> etc 
 
 Obs.: Caso seja possível, providenciarei a execução completa no Docker, com SGBD e Docker. 
-
-##### URL
-- [http://localhost:8085/crud-books-jstl-jdbc](http://localhost:8085/crud-books-jstl-jdbc)
 
 ##### Exemplo de uso
 
