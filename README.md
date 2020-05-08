@@ -9,11 +9,14 @@ Projeto criado como requisito para disciplina de Desenvolvimento Web com Framewo
 #### Autor
 Marcos Eduardo da Silva Santos
 
+#### URL
+- [http://localhost:8080/crudbooks](http://localhost:8080/crudbooks)
+
 #### Informações sobre o projeto
 
 Este Projeto foi implementado utilizando o padrão Model-View-Controller (MVC). 
 
-Foi codificado, também, um pequeno Framework MVC, o MiniMVC ([link](https://github.com/marcoseduardoss/mini-mvc/tree/master/mini-mvc)), o qual foi criado/utilziado como uma PoC par  Padrão MVC desenvolvido em Java/Servlet.  
+Foi codificado, também, um pequeno Framework MVC, o MiniMVC ([link](https://github.com/marcoseduardoss/mini-mvc/tree/master/mini-mvc)), o qual foi criado/utilziado como uma PoC MVC desenvolvido em Java/Servlet.  
 
 #### Recursos utilizados
 - Java, Tomcat9, Servlet, JSTL, Docker, PostgreSQL 12 e Hibernate/JPA.
@@ -38,6 +41,4 @@ mvn install
 
 Obs.: Caso seja possível, providenciarei a execução completa no Docker, com SGBD e Docker. 
 
-##### URL
-- [http://localhost:8080/crudbooks](http://localhost:8080/crudbooks)
  
