@@ -1,5 +1,5 @@
 # Mini-MVC
-MiniMVC: Small Model-View-Controller (MVC) implementation in Servlet / Java
+MiniMVC: Small Implementation of the Model-View-Controller (MVC) Pattern in Servlet / Java
 
 #### Author
 Marcos Eduardo da Silva Santos
