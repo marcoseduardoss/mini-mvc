@@ -5,7 +5,7 @@ Projeto criado como requisito para disciplina de Desenvolvimento Web com Framewo
 ###### Peojetos 
 - **Projeto MiniMVC:** [https://github.com/marcoseduardoss/mini-mvc/tree/master/mini-mvc](https://github.com/marcoseduardoss/mini-mvc/tree/master/mini-mvc)
 - **Projeto Demo1:** [001-crud-books-mvc-servlets-jpa-jstl](https://github.com/marcoseduardoss/mini-mvc/tree/master/demos/001-crud-books-mvc-servlets-jpa-jstl)
-- **Projeto Demo2:** [002-crudbooks-mvc-servlets-jpa-jstl-material-design](https://github.com/marcoseduardoss/002-crudbooks-mvc-servlets-jpa-jstl-material-design)
+- **Projeto Demo2:** [002-crudbooks-mvc-servlets-jpa-jstl-material-design](https://github.com/marcoseduardoss/mini-mvc/tree/master/demos/002-crudbooks-mvc-servlets-jpa-jstl-material-design)
 
 
 
