@@ -6,8 +6,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>br.me.books</groupId>
-	<artifactId>001-crud-books-mvc-servlets-jstl-jpa</artifactId>
-	<version>0.0.1</version>
+	<artifactId>002-crudbooks-mvc-servlets-jpa-jstl-material-design</artifactId>
+	<version>0.0.2</version>
 	<packaging>war</packaging>
 
 	<dependencies>
