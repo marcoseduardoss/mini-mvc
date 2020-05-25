@@ -41,7 +41,7 @@ Obs.: Caso seja possível, providenciarei a execução completa no Docker, com S
 
 ##### Exemplo de uso
 
-![](execucao--projeto-eclipse.gif)
+![](execucao-projeto-eclipse.gif)
 
 
 
